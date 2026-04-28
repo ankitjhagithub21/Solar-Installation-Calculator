@@ -1,4 +1,5 @@
-const apiKey = "AIzaSyC3drGbzgI4yovHMKTIu3M5rjwyRaT5e8c";
+import config from "../config/env";
+const apiKey =config.apiKey;
 // Initialize the Geocoder
 // const { Geocoder } = await google.maps.importLibrary("geocoding");
 import { Client } from "@googlemaps/google-maps-services-js";
