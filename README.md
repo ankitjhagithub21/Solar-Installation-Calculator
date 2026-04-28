@@ -175,25 +175,3 @@ npm run preview    # Preview production build
 npm run lint       # Run ESLint
 ```
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **"next is not a function" Error**
-   - Ensure all controller functions accept the `next` parameter
-   - Check Mongoose middleware for proper `next()` usage
-
-2. **Google Maps Not Loading**
-   - Verify API key is correct in both `.env` files
-   - Ensure all required Google APIs are enabled
-   - Check browser console for API errors
-
-3. **Database Connection Issues**
-   - Verify MongoDB is running (local) or connection string is correct (Atlas)
-   - Check network connectivity for MongoDB Atlas
-   - Ensure MongoDB URI format is correct
-
-4. **CORS Errors**
-   - Verify `ORIGIN` in backend `.env` matches frontend URL
-   - Check if CORS middleware is properly configured
-
